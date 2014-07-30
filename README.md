@@ -33,7 +33,7 @@ Clear the NuGet cache files. To do this:
 
 ### Installation instructions: SDK Samples from GitHub
 
-1. Restore the data base of the project ('TravellingAgency.bak') located in root folder of the project.
+1. Extract and restore the database of the project ('TravellingAgency.zip') located in App_Data folder.
 2. In Solution Explorer, navigate to _SitefinityWebApp_ -> *App_Data* -> _Sitefinity_ -> _Configuration_ and select the **DataConfig.config** file. 
 2. Modify the **connectionString** value to match your server address.
 3. Build the solution.
