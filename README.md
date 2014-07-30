@@ -13,7 +13,7 @@ The demo site contains a list of countries, cities and specific hotels and resta
 
 * Visual Studio 2012
 
-* Microsoft SQL Server 2012 or later versions
+* Microsoft SQL Server 2008R2 or later versions
 
 * Windows Identity Foundation
 
@@ -33,7 +33,7 @@ Clear the NuGet cache files. To do this:
 
 ### Installation instructions: SDK Samples from GitHub
 
-1. Extract and restore the database of the project ('TravellingAgency.zip') located in App_Data folder.
+1. Extract and restore the database of the project ('TravellingAgency.zip') located in the App_Data folder.
 2. In Solution Explorer, navigate to _SitefinityWebApp_ -> *App_Data* -> _Sitefinity_ -> _Configuration_ and select the **DataConfig.config** file. 
 2. Modify the **connectionString** value to match your server address.
 3. Build the solution.
