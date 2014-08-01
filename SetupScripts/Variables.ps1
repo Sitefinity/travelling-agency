@@ -19,8 +19,10 @@ $websitePort = $doc.SelectSingleNode("//variables/websitePort").InnerText
 $projectWebSiteLocation =  $doc.SelectSingleNode("//variables/projectWebSiteLocation").InnerText
 $databaseLocation = $doc.SelectSingleNode("//variables/databaseLocation").InnerText
 $databaseName = $doc.SelectSingleNode("//variables/databaseName").InnerText
-
 $databaseServer = $doc.SelectSingleNode("//variables/databaseServer").InnerText
+$licenseFile = $doc.SelectSingleNode("//variables/licenseFile").InnerText
+$licenseDestination = $doc.SelectSingleNode("//variables/licenseDestination").InnerText
+
 $appPollName = $siteName
 
 $aspNetTempFolder = "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root"

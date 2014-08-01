@@ -7,4 +7,6 @@
   <databaseLocation>C:\SamplesBuilds\TravellingAgency\TravellingAgency\App_Data</databaseLocation>
   <databaseName>TravellingAgencyDB</databaseName>
   <databaseServer>.\SQLEXPRESS</databaseServer>
+  <licenseFile>C:\Sitefinity.lic</licenseFile>
+  <licenseDestination>C:\SamplesBuilds\TravellingAgency\TravellingAgency\App_Data\Sitefinity</licenseDestination>
 </variables>
