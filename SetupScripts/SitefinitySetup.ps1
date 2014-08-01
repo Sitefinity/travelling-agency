@@ -27,6 +27,10 @@ write-output "Unzipping Database..."
 
 UnZipFile $databaseLocation "$databaseName.zip"
 
+write-output "Adding Sitefinity License..."
+
+Copy-Item $licenseFile $licenseDestination
+
 write-output "Sitefinity successfully deployed."
 
 function InstallSitefinity()
