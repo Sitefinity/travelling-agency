@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <title>Travel Agency</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <asp:ContentPlaceHolder ID="Header" runat="server">
+            </asp:ContentPlaceHolder>
+        </header>
+		<asp:ContentPlaceHolder ID="Main" runat="server">
+		</asp:ContentPlaceHolder>
+       
+    </form>
+</body>
+</html>
