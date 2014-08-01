@@ -82,11 +82,23 @@
     <Reference Include="DocumentFormat.OpenXml">
       <HintPath>packages\DocumentFormat.OpenXml.1.0\lib\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
+    <Reference Include="Gallio">
+      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio.dll</HintPath>
+    </Reference>
+    <Reference Include="Gallio40">
+      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\Gallio40.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>packages\HtmlAgilityPack.1.4.6\lib\Net40\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="LinqToTwitter">
       <HintPath>packages\linqtotwitterNET40.2.1.9.0\lib\net40\LinqToTwitter.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit">
+      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit40">
+      <HintPath>packages\Gallio_MbUnit.3.4.14.0\lib\net40\MbUnit40.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CompilerServices.AsyncTargetingPack.Net4">
       <HintPath>packages\Microsoft.CompilerServices.AsyncTargetingPack.1.0.1\lib\net40\Microsoft.CompilerServices.AsyncTargetingPack.Net4.dll</HintPath>
@@ -434,6 +446,9 @@
     <Reference Include="Telerik.Web.UI.Skins">
       <HintPath>packages\Telerik.Web.UI.2014.2.618.40\lib\net40\Telerik.Web.UI.Skins.dll</HintPath>
     </Reference>
+    <Reference Include="Telerik.WebTestRunner.Server">
+      <HintPath>packages\Telerik.WebTestRunner.Server.1.0.0.1\lib\net40\Telerik.WebTestRunner.Server.dll</HintPath>
+    </Reference>
     <Reference Include="Telerik.Windows.Controls">
       <HintPath>packages\Telerik.Sitefinity.Windows.Controls.2013.1.415.40\lib\net40\Telerik.Windows.Controls.dll</HintPath>
     </Reference>
@@ -655,6 +670,12 @@
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TravellingAgencyIntegrationTests\TravellingAgencyIntegrationTests.csproj">
+      <Project>{a2f8c5e4-e307-40bb-8a58-11922b3dccea}</Project>
+      <Name>TravellingAgencyIntegrationTests</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="OpenAccessNuget.targets" />
