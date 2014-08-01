@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>
+  <siteName>TravellingAgency</siteName>
+  <websiteUrl>http://localhost:3658/</websiteUrl>
+  <websitePort>3657</websitePort>
+  <projectWebSiteLocation>C:\SamplesBuilds\TravellingAgency\TravellingAgency</projectWebSiteLocation>
+  <databaseLocation>C:\SamplesBuilds\TravellingAgency\TravellingAgency\App_Data</databaseBackupLocation>
+  <databaseName>TravellingAgencyDB</databaseName>
+  <databaseServer>.\SQLEXPRESS</databaseServer>
+</variables>
