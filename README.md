@@ -1,6 +1,8 @@
 Travelling agency
 =================
 
+[![Build Status](http://sdk-jenkins-ci.cloudapp.net/buildStatus/icon?job=Telerik.Sitefinity.Samples.TravellingAgency.CI)](http://sdk-jenkins-ci.cloudapp.net/job/Telerik.Sitefinity.Samples.TravellingAgency.CI/)
+
 The Travelling Agency demo project utilizes the multiple child types feature in Sitefinity. Sitefinity 7.1 enables you to create complex hierarchies data structures using the multiple dynamic module types. 
 
 The demo site contains a list of countries, cities and specific hotels and restaurants in each city. The sample site demonstrates how you can take advantage of the new way hierarchical dynamic types are displayed in the front end.
@@ -48,5 +50,9 @@ To login to Sitefinity backend, use the following credentials:
 **Password:** password
 
 ### Additional resources
+
+Youtube video demo:
+
+[![Tooltip](https://raw.githubusercontent.com/Sitefinity-SDK/travelling-agency/master/TravellingAgency.png)](http://youtu.be/WCfc9GQoGoQ)
 
 [Tutorial: Create Travelling Agency site](http://www.sitefinity.com/documentation/documentationarticles/tutorial-create-travelling-agency-site)
