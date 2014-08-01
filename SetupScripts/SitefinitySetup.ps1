@@ -43,7 +43,7 @@ function InstallSitefinity()
 	$installed = $false
 	$count = 0
 	while(!$installed){
-		if($count -eq 100)
+		if($count -eq 20)
 		{
 			$errorMsg = "Unable to install host Sitefinity in IIS"
 			Throw New-Object System.Exception($errorMsg)
