@@ -41,9 +41,9 @@ function InstallSitefinity()
 	write-output "Setting up Sitefinity..."
 
 	$installed = $false
-	$count = 0;
+	$count = 0
 	while(!$installed){
-		if($count -eq 10)
+		if($count -eq 100)
 		{
 			$errorMsg = "Unable to install host Sitefinity in IIS"
 			Throw New-Object System.Exception($errorMsg)
@@ -57,9 +57,11 @@ function InstallSitefinity()
 			}
 		}catch [Exception]{
 			Restart-WebAppPool $appPollName -ErrorAction Continue
+			$count = $count + 1
+			write-output "--> $count try"
 			write-output "$_.Exception.Message"
 			$installed = $false
-			$count = $count + 1;
+			
 		}
 	}
 }
