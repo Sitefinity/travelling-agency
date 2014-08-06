@@ -2,6 +2,7 @@ param (
     [string]$dir = $(throw "-dir is required.")
 )
 $currentDir = $dir;
+Set-Location $currentDir
 $resultDir = "$currentDir\Result"
 $resultFile = "$resultDir\report.txt"
 
