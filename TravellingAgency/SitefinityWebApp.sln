@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57A2D6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellingAgencyIntegrationTests", "..\TravellingAgencyIntegrationTests\TravellingAgencyIntegrationTests.csproj", "{A2F8C5E4-E307-40BB-8A58-11922B3DCCEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellingAgencyUITests", "..\TravellingAgencyUITests\TravellingAgencyUITests.csproj", "{CFC68978-7793-4A75-A654-5B37B007FE52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,12 @@ Global
 		{A2F8C5E4-E307-40BB-8A58-11922B3DCCEA}.Release Pro|Any CPU.Build.0 = Release|Any CPU
 		{A2F8C5E4-E307-40BB-8A58-11922B3DCCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F8C5E4-E307-40BB-8A58-11922B3DCCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC68978-7793-4A75-A654-5B37B007FE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC68978-7793-4A75-A654-5B37B007FE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC68978-7793-4A75-A654-5B37B007FE52}.Release Pro|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC68978-7793-4A75-A654-5B37B007FE52}.Release Pro|Any CPU.Build.0 = Release|Any CPU
+		{CFC68978-7793-4A75-A654-5B37B007FE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC68978-7793-4A75-A654-5B37B007FE52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
