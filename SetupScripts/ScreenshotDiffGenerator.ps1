@@ -1,8 +1,5 @@
-param (
-    [string]$dir = $(throw "-dir is required.")
-)
 $currentDir = $dir;
-Set-Location $currentDir
+Set-Location "C:\SamplesBuilds\TravellingAgency\Screenshots"
 $resultDir = "$currentDir\Result"
 $resultFile = "$resultDir\report.txt"
 
