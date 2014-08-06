@@ -1,5 +1,5 @@
-$currentDir = $dir;
-Set-Location "C:\SamplesBuilds\TravellingAgency\Screenshots"
+$currentDir = "C:\SamplesBuilds\TravellingAgency\Screenshots";
+Set-Location $currentDir
 $resultDir = "$currentDir\Result"
 $resultFile = "$resultDir\report.txt"
 
