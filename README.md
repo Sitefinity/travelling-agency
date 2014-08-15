@@ -51,8 +51,13 @@ To login to Sitefinity backend, use the following credentials:
 
 ### Additional resources
 
-Youtube video demo:
-
+**Introduction video:**  
+Sitefinity dynamic modules multiple child types
 [![Tooltip](https://raw.githubusercontent.com/Sitefinity-SDK/travelling-agency/master/TravellingAgency.png)](http://youtu.be/WCfc9GQoGoQ)
+
+
+**Advanced tutorial:**  
+Multiple child types per level in Sitefinity's dynamic modules
+[![Tooltip](https://raw.githubusercontent.com/Sitefinity-SDK/travelling-agency/master/TravellingAgencyDemo2.png)](http://youtu.be/C2t_iT8OGDg)
 
 [Tutorial: Create Travelling Agency site](http://www.sitefinity.com/documentation/documentationarticles/tutorial-create-travelling-agency-site)
