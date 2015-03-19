@@ -183,3 +183,8 @@ FakesAssemblies/
 *.lic
 *.jmconfig
 .nuget/NuGet.exe
+
+TravellingAgency/packages/*
+TravellingAgency/ResourcePackages/*
+TravellingAgency/.nuget/NuGet.exe
+*.dll
