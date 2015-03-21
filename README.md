@@ -35,16 +35,15 @@ For a history and additional information related to package versions on differen
 ### Installation instructions: SDK Samples from GitHub
 
 1. Extract and restore the database of the project ('TravellingAgency.zip') located in the App_Data folder.
-2. In Solution Explorer, navigate to _SitefinityWebApp_ -> *App_Data* -> _Sitefinity_ -> _Configuration_ and select the **DataConfig.config** file. 
+1. In Solution Explorer, navigate to _SitefinityWebApp_ » *App_Data* » _Sitefinity_ » _Configuration_ and select the **DataConfig.config** file.
 2. Modify the **connectionString** value to match your server address.
 3. Build the solution.
 
 
 ### Login
 
-To login to Sitefinity backend, use the following credentials: 
-
-**Username:** admin
+To login to Sitefinity backend, use the following credentials:  
+**Username:** admin  
 **Password:** password
 
 ### Additional resources
@@ -58,4 +57,5 @@ Sitefinity dynamic modules multiple child types
 Multiple child types per level in Sitefinity's dynamic modules
 [![Tooltip](https://raw.githubusercontent.com/Sitefinity-SDK/travelling-agency/master/TravellingAgencyDemo2.png)](http://youtu.be/C2t_iT8OGDg)
 
-[Tutorial: Create Travelling Agency site](http://www.sitefinity.com/documentation/documentationarticles/tutorial-create-travelling-agency-site)
+**Sitefinity documentation:**   
+[Tutorial: Create Travelling agency site with hierarchical types](http://docs.sitefinity.com/tutorial-create-travelling-agency-site-with-hierarchical-types)
