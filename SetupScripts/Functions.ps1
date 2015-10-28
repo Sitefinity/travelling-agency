@@ -45,7 +45,7 @@ function EnsureSitefinityIsRunning([String]$url="http://localhost", [String]$suc
 
        try 
        { 
-         $response = Invoke-WebRequest $statusUrl -TimeoutSec 300
+         $response = Invoke-WebRequest $statusUrl -TimeoutSec 300 -UseBasicParsing
 
          if($response.StatusCode -eq 200)
          {
@@ -55,7 +55,7 @@ function EnsureSitefinityIsRunning([String]$url="http://localhost", [String]$suc
          while($response.StatusCode -eq 200)
          {    
               Write-Host "Checking Sitefinity status: ${statusUrl}"
-              $response = Invoke-WebRequest $statusUrl -TimeoutSec 300
+              $response = Invoke-WebRequest $statusUrl -TimeoutSec 300 -UseBasicParsing
 
               if($elapsed.Elapsed.Minites > $totalWaitMinutes)
               {
@@ -70,7 +70,7 @@ function EnsureSitefinityIsRunning([String]$url="http://localhost", [String]$suc
        {
          if($_.Exception.Response.StatusCode.Value__ -eq 404)
          {
-              $response = Invoke-WebRequest $url -TimeoutSec 120
+              $response = Invoke-WebRequest $url -TimeoutSec 120 -UseBasicParsing
 
               if($response.StatusCode -eq 200)
               {
