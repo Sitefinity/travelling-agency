@@ -94,4 +94,5 @@ function EnsureSitefinityIsRunning([String]$url="http://localhost", [String]$suc
          }
 
          return $_.Exception.Response
+	 }
 }
