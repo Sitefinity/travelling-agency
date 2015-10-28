@@ -68,6 +68,9 @@ function InstallSitefinity()
 			
 		}
 	}
+	
+	Write-Output "Ensuring $websiteUrl is running."
+    EnsureSitefinityIsRunning $websiteUrl
 }
 
 function BuildSolution($slnFile)
