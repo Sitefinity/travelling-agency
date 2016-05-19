@@ -3,13 +3,13 @@ Travelling agency
 
 [![Build Status](http://sdk-jenkins-ci.cloudapp.net/buildStatus/icon?job=Telerik.Sitefinity.Samples.TravellingAgency.CI)](http://sdk-jenkins-ci.cloudapp.net/job/Telerik.Sitefinity.Samples.TravellingAgency.CI/)
 
-The Travelling Agency demo project utilizes the multiple child types feature in Sitefinity. Sitefinity 7.1 enables you to create complex hierarchies data structures using the multiple dynamic module types. 
+The Travelling Agency demo project utilizes the multiple child types feature in Sitefinity CMS. Sitefinity CMS 7.1 enables you to create complex hierarchies data structures using the multiple dynamic module types. 
 
 The demo site contains a list of countries, cities and specific hotels and restaurants in each city. The sample site demonstrates how you can take advantage of the new way hierarchical dynamic types are displayed in the front end.
 
 ### Requirements
 
-* Sitefinity license
+* Sitefinity CMS license
 * .NET Framework 4
 * Visual Studio 2012
 * Microsoft SQL Server 2008R2 or later versions
@@ -42,14 +42,14 @@ For a history and additional information related to package versions on differen
 
 ### Login
 
-To login to Sitefinity backend, use the following credentials:  
+To login to Sitefinity CMS backend, use the following credentials:  
 **Username:** admin  
 **Password:** password
 
 ### Additional resources
 
 **Introduction video:**  
-Sitefinity dynamic modules multiple child types
+Sitefinity CMS dynamic modules multiple child types
 [![Tooltip](https://raw.githubusercontent.com/Sitefinity-SDK/travelling-agency/master/TravellingAgency.png)](http://youtu.be/WCfc9GQoGoQ)
 
 
@@ -57,5 +57,5 @@ Sitefinity dynamic modules multiple child types
 Multiple child types per level in Sitefinity's dynamic modules
 [![Tooltip](https://raw.githubusercontent.com/Sitefinity-SDK/travelling-agency/master/TravellingAgencyDemo2.png)](http://youtu.be/C2t_iT8OGDg)
 
-**Sitefinity documentation:**   
+**Progress Sitefinity CMS Documentation:**   
 [Tutorial: Create Travelling agency site with hierarchical types](http://docs.sitefinity.com/tutorial-create-travelling-agency-site-with-hierarchical-types)
