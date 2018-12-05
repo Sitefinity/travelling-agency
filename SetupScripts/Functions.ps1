@@ -75,7 +75,7 @@ function EnsureSitefinityIsRunning([String]$url="http://localhost", [String]$suc
               if($response.StatusCode -eq 200)
               {
                 $elapsed.Stop();
-                $elapsedTime = $elapsed.Elapsed.Seconds
+                $elapsedTime = $elapsed.Elapsed.TotalSeconds
                 Write-Host "Sitefinity has started after ${elapsedTime} second(s) - ${successOuput}"
                 return $response
               }
