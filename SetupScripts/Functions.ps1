@@ -57,7 +57,7 @@ function EnsureSitefinityIsRunning([String]$url="http://localhost", [String]$suc
               Write-Host "Checking Sitefinity status: ${statusUrl}"
               $response = Invoke-WebRequest $statusUrl -TimeoutSec 300 -UseBasicParsing
 
-              if($elapsed.Elapsed.Minites > $totalWaitMinutes)
+              if($elapsed.Elapsed.TotalMinutes > $totalWaitMinutes)
               {
                 Write-Host "Sitefinity did NOT start in the specified maximum time"
                 break
